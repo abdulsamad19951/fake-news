@@ -3,6 +3,10 @@
 dspd-project
 DATA SCIENCE PRODUCT DEVELOPMENT-PROJECT
 
+
+
+Dataset : https://www.kaggle.com/pontes/fake-news-sample
+
 PROBLEM STATEMENT: Whether or not the content is fake news
 
 DATABASE SCHEMA- FAKE NEWS APPLICATION
