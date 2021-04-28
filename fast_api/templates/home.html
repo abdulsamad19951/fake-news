@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}Home - {% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+<div class="card m-5">
+  <h5 class="card-header">News Authenticity Detector</h5>
+  <div class="card-body">
+    <h5 class="card-title">Enter content below</h5>
+    <form action="/multilingual_news_detect" method="post">
+    <textarea class="form-control" rows="3" type="news" name="news" value="Type here" required></textarea>
+    <button type="submit" class="btn btn-primary mt-3">Check Fake</button>
+    </form>
+  </div>
+</div>
+
+
+
+{{data.page}}
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+
+{% endblock %}
