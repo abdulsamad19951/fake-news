@@ -7,6 +7,8 @@ DATA SCIENCE PRODUCT DEVELOPMENT-PROJECT
 
 Dataset : https://www.kaggle.com/pontes/fake-news-sample
 
+Reference to model: https://drive.google.com/file/d/1QREbyPeYZUxfQ7FSZmTuBnDAqEa9XzD3/view?usp=sharing
+
 PROBLEM STATEMENT: Whether or not the content is fake news
 
 DATABASE SCHEMA- FAKE NEWS APPLICATION
