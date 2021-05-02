@@ -1,15 +1,13 @@
 FROM python:3.7
 
-COPY requirements.txt .
+RUN mkdir fast-api
 
+COPY requirements.txt requirements.txt
+COPY fastapi /fast-api/
+
+RUN pip3 install --upgrade pip
 RUN pip install -r requirements.txt
+WORKDIR /fast-api/
 
-COPY ./controller/ controller/
-COPY ./models/ models/
-COPY ./routes/ routes/
-COPY config.json .
-
-RUN useradd -m apiuser
-USER apiuser
-
+EXPOSE 8080
 CMD ["uvicorn", "routes.api:app", "--host", "0.0.0.0", "--port", "8080"]
