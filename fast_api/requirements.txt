@@ -1,20 +1,9 @@
-<<<<<<< HEAD
-=======
 aiofiles==0.6.0
->>>>>>> 48e297e96e6ffcfe14c5237666c3e3b7024e0892
 certifi==2020.12.5
 chardet==4.0.0
 click==7.1.2
 fastapi==0.63.0
 filelock==3.0.12
-<<<<<<< HEAD
-idna==2.10
-joblib==1.0.1
-numpy==1.19.5
-packaging==20.9
-pydantic==1.8.1
-pyparsing==2.4.7
-=======
 h11==0.12.0
 idna==2.10
 Jinja2==2.11.2
@@ -27,26 +16,16 @@ pydantic==1.8.1
 pyparsing==2.4.7
 python-dotenv==0.15.0
 python-multipart==0.0.5
->>>>>>> 48e297e96e6ffcfe14c5237666c3e3b7024e0892
 regex==2021.4.4
 requests==2.25.1
 sacremoses==0.0.45
 six==1.15.0
 starlette==0.13.6
 tokenizers==0.10.2
-<<<<<<< HEAD
-tqdm==4.60.0
-torch==1.8.0
-=======
 torch==1.8.1
 tqdm==4.60.0
->>>>>>> 48e297e96e6ffcfe14c5237666c3e3b7024e0892
 transformers==4.5.1
 typing==3.7.4.3
 typing-extensions==3.7.4.3
 urllib3==1.26.4
-<<<<<<< HEAD
-uvicorn
-=======
 uvicorn==0.12.3
->>>>>>> 48e297e96e6ffcfe14c5237666c3e3b7024e0892
